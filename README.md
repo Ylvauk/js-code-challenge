@@ -28,6 +28,13 @@ Commenting your code like this, writing out what you're doing line by line, is a
 
 # The Challenges
 
+## Instructions 
+
+1. Fork and clone this repository 
+1. Change into the new directory 
+1. Write your solutions for the challenges below in the `lib/challenge.js` file 
+1. Check your work as you go by opening your `lib/index.html` in the browser as a LiveServer 
+
 ## Prime Numbers 
 
 A Prime number is a number that is not evenly divisible by another number except 1 and itself. If you want to read more deeply about it, [go here](https://en.wikipedia.org/wiki/Prime_number). To test whether a number is Prime, you only need to test as far as the **square root** of that number. This is advisable for optimization and testing large numbers.
@@ -61,7 +68,7 @@ If there is a tie between the two most frequent words, the first appearing one i
 
 ## Examples
 
-<details><summary><strong>Click to see examples</strong><p>
+<details><summary><strong>Click to see examples</strong></summary><p>
 
 **"The world is all that is the case"**
 
