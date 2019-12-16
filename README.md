@@ -66,7 +66,7 @@ Write a function `findHighestFrequency` that takes in an object and returns an o
 
 If there is a tie between the two most frequent words, the first appearing one is returned.
 
-## Examples
+### Examples
 
 <details><summary><strong>Click to see examples</strong></summary><p>
 
