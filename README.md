@@ -52,7 +52,7 @@ This function can **call on** the previous `checkPrime` function.
 
 ## Word Frequency 
 
-## Step One
+### Step One
 
 Write a function `findWordFrequencies` that takes in a sentence (string), and returns an object with each word as a key, with a value of how many times that word appears in the sentence.
 
@@ -60,13 +60,13 @@ eg: `findWordFrequencies('I love lamp')` would return `{ I: 1, love: 1, lamp: 1 
 
 Make it work just for sentences without commas, apostrophes, and periods. Capital letters and lowercase letters should be treated as equals: 'The' and 'the' are the same word.
 
-## Step Two
+### Step Two
 
 Write a function `findHighestFrequency` that takes in an object and returns an object with the key that has the highest value. With this function we can see which word appeared in the sentence with the highest frequency.
 
 If there is a tie between the two most frequent words, the first appearing one is returned.
 
-### Examples
+#### Examples
 
 <details><summary><strong>Click to see examples</strong></summary><p>
 
