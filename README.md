@@ -28,6 +28,10 @@ Commenting your code like this, writing out what you're doing line by line, is a
 
 # The Challenges
 
+If you would rather focus on trying to solidify your understanding on callbacks and array methods, feel free to instead work on this [Minions lab here](https://git.generalassemb.ly/seir-129/callback-array-methods-lab).
+
+If you're feeling comfortable with all the topics we've covered thus far, then move on to the challenges below.
+
 ## Instructions 
 
 1. Fork and clone this repository 
