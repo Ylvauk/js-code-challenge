@@ -1,3 +1,4 @@
+
 # JS Coding Challenge 
 
 For today's morning exercise, you will be tackling some JS coding challenges. Please note these are _challenges_ meaning they may be difficult and you may find yourself having to look up online how to do something. That is fine and expected, just start small and try pseudocoding the logic out before you write any actual code. 
@@ -12,7 +13,7 @@ Pseudocoding is structuring your solution in human language rather than computer
 
 For example, if I were to pseudocode how to print out only the even numbers of an array, I could do something like so: 
 
-```js
+```javascript
 // loop through the length of the array 
 // check if the current element of the array is even 
 // if it is even, console log it 
@@ -26,12 +27,6 @@ As you can see, the words kind of guide you towards what kind of code to write.
 
 Commenting your code like this, writing out what you're doing line by line, is also just a good idea in general as a beginner. Not only will you solidify to yourself that you understand what exactly your code is doing, but in case you have to go back later and look back at your work, you'll know exactly what you were thinking and what's happening at a quick glance. 
 
-# The Challenges
-
-If you would rather focus on trying to solidify your understanding on callbacks and array methods, feel free to instead work on this [Minions lab here](https://git.generalassemb.ly/seir-323/callback-array-methods-lab).
-
-If you're feeling comfortable with all the topics we've covered thus far, then move on to the challenges below.
-
 ## Instructions 
 
 1. Fork and clone this repository 
@@ -39,20 +34,24 @@ If you're feeling comfortable with all the topics we've covered thus far, then m
 1. Write your solutions for the challenges below in the `lib/challenge.js` file 
 1. Check your work as you go by opening your `lib/index.html` in the browser as a LiveServer 
 
+# The Challenges
+
 ## Prime Numbers 
 
 A Prime number is a number that is not evenly divisible by another number except 1 and itself. If you want to read more deeply about it, [go here](https://en.wikipedia.org/wiki/Prime_number). To test whether a number is Prime, you only need to test as far as the **square root** of that number. This is advisable for optimization and testing large numbers.
+
+![Prime numbers table](https://media.giphy.com/media/a1DcwyGtpLG9O/giphy.gif)
 
 ### Step One
 
 Write a function called `checkPrime` that will test whether a number is Prime. The function will return true (Boolean) if Prime, false if not.
 
-_Hint:_ Check every number up to the square root. To do this, try a _for loop_.
+_Hint:_ Check every number up to (and including!) the square root. To do this, try a _for loop_.
 
 ### Step Two
 Write another function called `printPrimes` that will print (console log) all the Primes up to an arbitrary limit. For example, if you invoke your function with `printPrimes(97)`, it will print all the Prime numbers up to and including 97.
 
-This function can **call on** the previous `checkPrime` function.
+This function can **call on** the previous `checkPrime` function. 
 
 ## Word Frequency 
 
@@ -134,7 +133,7 @@ console.log(findHighestFrequency(freqs));
 
 # Hungry for More
 
-If you finish early, try these! You may have to signup for codewars if you haven't already.
+If you finish early, try these! You may have to signup for CodeWars if you haven't already.
 
 [Coin Calculator](https://www.codewars.com/kata/calculator-coin-combination)
 
