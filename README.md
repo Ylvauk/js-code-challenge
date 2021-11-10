@@ -5,7 +5,7 @@ For today's morning exercise, you will be tackling some JS coding challenges. Pl
 
 What is pseudocode? I'm glad you asked! 
 
-## Intro to Pseudocoding
+## Pseudocoding Refresher
 
 Pseudocoding is a helpful process to begin with before you start writing actual code. It makes it easier for you to conceptualize and understand what you're actually aiming to do.
 
