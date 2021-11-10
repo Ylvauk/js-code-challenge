@@ -36,6 +36,33 @@ Commenting your code like this, writing out what you're doing line by line, is a
 
 # The Challenges
 
+## Largest Number
+
+Write a function called `largestNumber` that takes a positive or zero integer argument `magnitude` and returns the largest integer possible with a number of digits equal to `magnitude`. If `magnitude` is zero, return `0`.
+
+Example:
+
+```js
+largestNumber(0);  // return 0
+largestNumber(1);  // return 9
+largestNumber(3);  // return 999
+largestNumber(4);  // return 9999
+largestNumber(8);  // return 99999999
+```
+
+### Hungry for more
+
+Modify your function, so `magnitude` can be negative. If `magnitude` is negative, return the largest possible number with that many digits after a decimal point.
+
+Example:
+
+```js
+largestNumber(-1);  // return .9
+largestNumber(-3);  // return .999
+largestNumber(-5);  // return .99999
+```
+
+
 ## Prime Numbers 
 
 A Prime number is a number that is not evenly divisible by another number except 1 and itself. If you want to read more deeply about it, [go here](https://en.wikipedia.org/wiki/Prime_number). To test whether a number is Prime, you only need to test as far as the **square root** of that number. This is advisable for optimization and testing large numbers.
